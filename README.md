@@ -45,9 +45,7 @@ Before you begin, make sure you have a Midtrans account. If you don't have one, 
     snapClient.New("your_server_key", midtrans.Sandbox)
     ```
 
-## Usage
-
-### 1. Creating a Payment
+## Creating a Payment
 ```go
 // Example payment creation
 chargeReq := &midtrans.ChargeReq{
